@@ -1,0 +1,163 @@
+body {
+	font-family: "Courant";
+	font-size: 16px;
+	line-height: 1.4em;
+	width: 600px;
+	margin: 96px auto;
+	background-color: #FFF7E6;
+	overflow: hidden;
+}
+.b1 {
+	position: relative;
+	top: -20%;
+	left: 0%;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.mainContain {
+	position: relative;
+	top: 10%;
+	left: -27%;
+	width: 900px;
+	height: 1000px;
+}
+h1 {
+	text-align: center;
+	color: red;
+	font-family: "Courant";
+	font-weight: normal;
+	font-size: 70px;
+	position: absolute;
+	left: 39%;
+	top: -10%;
+}
+.taskInputToDo {
+	position: absolute;
+	left: 29%;
+	top: 0%;
+	background-color: rgba(255, 0, 0, .3);
+	width: 360px;
+	height: 30px;
+	overflow: auto;
+	font-family: "Courant";
+	font-size: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid;
+	border-color: #C4C4C4;
+	outline: none;
+	color: #999999;
+	transition: border-color, outline .5s;
+}
+.taskInputToDo:focus {
+	outline: none;
+	border-color: #3369E8;
+}
+.addButton {
+	position: absolute;
+	left: 69.5%;
+	top: 0%;
+	background-color: #3369E8;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0;
+	border-radius: 2px;
+	font-family: "Courant";
+	font-weight: bold;
+	font-size: 28px;
+	color: white;
+	transition: opacity .4s;
+}
+.addButton:hover {
+	opacity: .6;
+}
+.tabs {
+	position: absolute;
+	background-color: #999999;
+	top: 5%;
+	left: 14.48%;
+	line-height: 30px;
+	color: red;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 1%;
+}
+.tabs .unf {
+	border-bottom: 2px solid #3369E8;
+}
+.tabs .dun, .all {
+	border-bottom:2px solid #C4C4C4
+}
+.tabs:hover {
+	cursor: pointer;
+}
+.Unfinished {
+	position: absolute;	
+	background-color: #999999;
+	top: 5%;
+	padding-left: 5px;
+	padding-right: 5px;
+	left: 28.5%;
+	width: 390px;
+	height: 500px;
+	border-left: 2px solid red;
+	overflow-y: scroll;
+}
+.Finished {
+	position: absolute;	
+	background-color: #999999;
+	top: 5%;
+	padding-left: 5px;
+	padding-right: 5px;
+	left: 28.5%;
+	width: 390px;
+	height: 500px;
+	border-left: 2px solid red;
+	overflow-y: scroll;
+}
+.task {
+	border-bottom: 2px solid rgba(255,0,0,.6);
+	color: black;
+}
+.delete {
+	position: absolute;
+	left: 91%;
+	border: 1.5px solid #3369E8;
+	border-radius: 50%;
+	padding: 8px 4px 8px 4px;
+	font-size: 15px;
+	line-height: 0;
+	font-family: "Courant";
+	transition: background-color .4s, color .4s;
+}
+.delete:hover {
+	color: red;
+}
+.delete:active {
+	background-color: #FF0000;
+}
+.fin {
+	position: absolute;
+	left: 85%;
+	border: 1.5px solid #3369E8;
+	border-radius: 50%;
+	padding: 8px 2px 8px 2px;
+	font-size: 14px;
+	line-height: 0;
+}
+.fin:hover {
+	color: #8db600;
+}
+.fin:active {
+	background-color: #00ED04;
+}
+
+
+
+
